@@ -1,0 +1,1 @@
+select jid from wa_contacts where is_whatsapp_user = 1  and display_name like ? 

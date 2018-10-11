@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="DIAGRAMME DE CLASSE DE WHATSTOCK&#xD;&#xA;">
+    <Position X="8.733" Y="0.955" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="whatstockv1.ChatList">
+    <Position X="1.75" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAgACAQAAAACAABACIAgAAAAAMCAAAAAAABoA=</HashCode>
+      <FileName>ChatList.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="contient" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="whatstockv1.Contact">
+    <Position X="6" Y="0.5" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AmwAAAAAgAAASEAAFAGABAAAACAIBUAAIEAAAAAAAAQ=</HashCode>
+      <FileName>Contact.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="whatstockv1.Database">
+    <Position X="0.5" Y="3.25" Width="2.75" />
+    <AssociationLine Name="sauvegarde" Type="whatstockv1.ChatList">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.175" Y="0.201" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAgAAAAAABAAgAAIAQABAAACAAAAgAAAA=</HashCode>
+      <FileName>Database.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="sauvegarde" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="whatstockv1.Messages">
+    <Position X="8.75" Y="3" Width="2" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAUwgAACABCgYCIAAAAABAEAAgAELEAOQAAUgAoYDoA=</HashCode>
+      <FileName>Messages.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="appartient" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="whatstockv1.Messages_thumbnails">
+    <Position X="3.75" Y="3.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAIAAAAAAAAAgAAAAACAAAAAAAABAA=</HashCode>
+      <FileName>Messages_thumbnails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

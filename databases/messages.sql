@@ -1,0 +1,1 @@
+SELECT chat_list._id as id ,chat_list.key_remote_jid, chat_list.subject, chat_list.creation, max(messages.timestamp) as max FROM chat_list LEFT OUTER JOIN messages on messages.key_remote_jid = chat_list.key_remote_jid  GROUP BY chat_list.key_remote_jid, chat_list.subject, chat_list.creation ORDER BY max(messages.timestamp) desc

@@ -1,0 +1,1 @@
+select display_name, status, status_timestamp,number,raw_contact_id from wa_contacts where is_whatsapp_user = 1 and raw_contact_id not null order by display_name
